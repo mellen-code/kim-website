@@ -37,6 +37,10 @@
 		list-style: none;
 	}
 
+	#banner > h2 {
+		visibility: hidden;
+	} 
+
 	blockquote, q {
 		quotes: none;
 	}
@@ -80,6 +84,47 @@
 
 	body {
 		-ms-overflow-style: scrollbar;
+	}
+
+	@media screen and (min-width: 940px) and (max-width: 1110px) {
+		#banner > h2 {
+		  visibility: visible;
+		  margin-top: -2.0em;
+		  font-size: 4.5em;
+		  letter-spacing: 0.050em;
+		  color: #ffffff;
+		}
+	  }
+	
+	  @media screen and (min-width: 760px) and (max-width: 941px) {
+		#banner > h2 {
+		  visibility: visible;
+		  margin-top: 0em;
+		  font-size: 4.5em;
+		  letter-spacing: 0.050em;
+		  color: #ffffff;
+		}
+	  }
+	
+	  @media screen and (max-width: 759px) {
+		#banner > h2 {
+		  visibility: visible;
+		  margin-top: -0.8em;
+		  font-size: 4.5em;
+		  letter-spacing: 0.040em;
+		  color: #ffffff;
+		}
+	
+		#page-wrapper #banner {
+		  background-size: 150%;
+		}
+	  
+	
+	  @media screen and (max-width: 580px) {
+		.image.right {
+		  display: block;
+		}
+	  }	
 	}
 
 	@media screen and (max-width: 480px) {
@@ -2553,7 +2598,7 @@
   }
 
 		.image.right {
-			float: right;
+			/* float: right; */
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
@@ -2745,7 +2790,7 @@
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 80%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -2887,7 +2932,8 @@
 		input[type="reset"].fit,
 		input[type="button"].fit,
 		.button.fit {
-			width: 100%;
+			width: 80%;
+			padding: 0;
 		}
 
 		input[type="submit"].small,
@@ -3258,16 +3304,16 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll, fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/testHeadshot.jpg");
-/* 		background-position: top left, center center; */
-		background-repeat: repeat,							no-repeat;
-		background-size: auto, cover;
+		background-attachment: fixed;
+		background-color: #000000;
+		background-image: url("../../images/kimSequin7366.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
-    height: 100vh;
+    	height: 100vh;
 	}
 
 		#banner :last-child {
@@ -3546,7 +3592,90 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 840px) {
+	/* @media screen and (max-width: 840px) { */
+	@media screen and (max-width: 1110px) { 
+
+		header.major {
+			display: block;
+		  }
+	 
+		  .image img {
+			height: 30vh;
+		  }
+	 
+		  .image.left {
+			padding: 0 0 1em 0;
+		  }
+	 
+		  #about > header > div:nth-child(2) {
+			margin: 0;
+			text-align: center;
+		  }
+	 
+		  #aboutImageRight > div.image-right-text {
+			text-align: center;
+			padding-right: 0.1em;
+			padding-left: 0.5em;
+		  }
+	 
+		  #aboutImageRight {
+			display: block;
+			padding: 0;
+			margin-top: 1em;
+		  }
+	 
+		  #secondAboutImage {
+			height: 20vh;
+			margin-top: 0;
+		  }
+	 
+		  #eventsTitle {
+			margin: 6% 0 3% 0;
+		  }
+	 
+		  #connectFlex {
+			display: block;
+		  }
+	 
+		  #about h3 {
+			line-height: 1.1em;
+		  }
+	 
+		  #about .image-right-text, #about > header > div:nth-child(2) > p:nth-child(2), #about > header > div:nth-child(2) > p:nth-child(3), #about > header > div:nth-child(2) > p:nth-child(4) {
+			line-height: 1.8em
+		  }
+	 
+		  #connect {
+			text-align: center;
+		  }
+	 
+		  #gallerySpacing, #connectSpacing {
+			padding: 3rem 0 0 0;
+		  }
+		  
+		 #connectFlex > div:nth-child(1) > div > ul > li {
+		   width: 50%;
+		   margin: auto;
+		 }
+	 
+		 #connectFlex > div:nth-child(1) > div > ul > div > ul {
+		   display: flex;
+		   align-items: baseline;
+		   margin: 2rem;
+		 } 
+	 
+		 #connectFlex > div:nth-child(1) > div > ul, #connectFlex > div:nth-child(1) > div > ul > div {
+		   margin: auto;
+		 } 
+	 
+		 #connectFlex > div.connectSubFlex.subFlexLeft > div > div {
+		   margin: auto;
+		   width: auto;
+		 }
+	 
+		 .subFlexLeft {
+		   padding-left: 0;
+		 } 
 
 		/* Basic */
 
