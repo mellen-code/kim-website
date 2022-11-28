@@ -183,6 +183,10 @@
 		margin: 0 0 1.5em 0;
 	}
 
+	#connectFlex > div:nth-child(1) > div > p {
+		margin: 0 0 2em 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #646464;
 		font-weight: 300;
@@ -376,6 +380,10 @@
 
 		.row > .col-6 {
 			width: 33.3%;
+		}
+
+		#connectFlex > div.connectSubFlex.subFlexLeft > div > div {
+			width: 100%;
 		}
 
 		.row > .off-6 {
@@ -2407,12 +2415,13 @@
     font-weight: 500;
   }
 
-  .connectSubFlex {
+  /* .connectSubFlex {
     flex: 1;
-  }
+  } */
 
   .subFlexLeft {
     padding-left: 30%;
+	line-height: 3em;
   }
 
   #connectFlex > div:nth-child(1) > div > ul {
@@ -3593,6 +3602,21 @@
 	}
 
 	/* @media screen and (max-width: 840px) { */
+
+	@media screen and (min-width: 481px) and (max-width: 620px) {
+		#connectFlex > div:nth-child(1) > div > ul > li {
+			width: 60%;
+			margin: auto;
+		}
+	}
+
+	@media screen and (min-width: 621px) and (max-width: 1109px) {
+		#connectFlex > div:nth-child(1) > div > ul > li {
+			width: 50%;
+			margin: auto;
+		}
+	}
+		
 	@media screen and (max-width: 1110px) { 
 
 		header.major {
@@ -3653,15 +3677,15 @@
 			padding: 3rem 0 0 0;
 		  }
 		  
-		 #connectFlex > div:nth-child(1) > div > ul > li {
+		 /* #connectFlex > div:nth-child(1) > div > ul > li {
 		   width: 50%;
 		   margin: auto;
-		 }
+		 } */
 	 
 		 #connectFlex > div:nth-child(1) > div > ul > div > ul {
 		   display: flex;
 		   align-items: baseline;
-		   margin: 2rem;
+		   margin: 1.5rem 2rem;
 		 } 
 	 
 		 #connectFlex > div:nth-child(1) > div > ul, #connectFlex > div:nth-child(1) > div > ul > div {
