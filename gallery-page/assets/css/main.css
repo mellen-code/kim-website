@@ -27,30 +27,71 @@
 
 #main #image5Thumb {
   margin-top: -41.5vh;
-  height: 50vh;
+  height: 28vh;
 }
 
-#image7Thumb {
-  height: 50vh;
-  width: 100%;
+#main #image7Thumb {
+  height: 42vh;
   margin-top: -4.5vh;
 }
 
-#image2Thumb {
+#main #image2Thumb {
   margin-left: 2vw;
-  margin-top: -25vh;
+  margin-top: -38.5vh;
+  height: 84vh;
 }
 
-#image9Thumb {
+#main #image9Thumb {
   margin-left: 2vw;
   margin-top: 3vh;
 }
 
-
-
-#videoSection > video {
-  height: 40vh;
+#main #image10Thumb {
+	height: 50vh;
+  	margin-top: -4.5vh;
 }
+
+#main #image11Thumb {
+	margin-left: 2vw;
+  	margin-top: 3vh;
+}
+
+#main #image12Thumb {
+	margin-left: 2vw;
+  margin-top: -2.5vh;
+  height: 70vh;
+}
+
+#main #image13Thumb {
+	height: 62vh;
+  	margin-top: -18.5vh;
+}
+
+#main #image14Thumb {
+	margin-left: 2vw;
+  	margin-top: -25vh;
+	height: 50vh;
+}
+
+#main #image15Thumb {
+	margin-left: 2vw;
+  margin-top: 3vh;
+  height: 42vh;
+}
+
+#main #image16Thumb {
+	height: 52vh;
+  	margin-top: 1.5vh;
+}
+
+#main #image17Thumb {
+	margin-left: 2vw;
+  	margin-top: -17vh;
+	height: 38vh;
+}
+
+
+
 
 
 
@@ -1919,7 +1960,28 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 750px) {
+			#wrapper {
+				margin: 0 4rem 0 4rem;
+			}
+		}
+
+		@media screen and (max-width: 979px) {
+			#main {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-auto-rows: 1fr;
+			}
+
+			#main #image1Thumb, #main #image2Thumb, #main #image3Thumb, #main #image4Thumb, #main #image5Thumb, #main #image6Thumb, #main #image7Thumb, #main #image8Thumb, #main #image9Thumb, #main #image10Thumb, #main #image11Thumb, #main #image12Thumb, #main #image13Thumb, #main #image14Thumb, #main #image15Thumb, #main #image16Thumb, #main #image17Thumb {
+				margin: 0;
+				height: 30vh;
+				width: 100%;
+			}
+		}
+
+
+		@media screen and (max-width: 980px) {
 
 			#main .thumb {
 				-moz-transition-delay: 1.625s;
@@ -1928,7 +1990,7 @@ input, select, textarea {
 				transition-delay: 1.625s;
 				height: calc(40vh - 2em);
 				min-height: 20em;
-				width: 50%;
+				/* width: 50%; */
 			}
 
 				#main .thumb:nth-child(1) {
