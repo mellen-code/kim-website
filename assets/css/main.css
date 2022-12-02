@@ -3350,7 +3350,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #000000;
-		background-image: url("../../images/kimSequin7366.png");
+		background-image: url("../../images/kimSequin7366BannerResized.png");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -3517,7 +3517,7 @@
 		text-align: center;
     background-attachment: scroll, fixed;
 /*     background-color: #666; */
-    background-image: url(images/overlay.png), url(../../images/kimOutside41.png);
+    background-image: url(images/overlay.png), url(../../images/kimOutside41BannerResized.png);
     /* background-position: top left, center center; */
 	background-position: top;
     background-repeat: repeat, no-repeat;
