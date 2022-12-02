@@ -1,7 +1,14 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
+/* Colors:
+#E83E24
+#2f2d2d - red
+ #ff4712 - orange-red */
+
+
 /* Reset */
+
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
@@ -105,6 +112,12 @@
 		  color: #ffffff;
 		}
 	  }
+
+	  @media screen and (max-width: 950px) {
+		#page-wrapper #banner {
+			background-size: 150%;
+		  }
+	  }
 	
 	  @media screen and (max-width: 759px) {
 		#banner > h2 {
@@ -115,9 +128,6 @@
 		  color: #ffffff;
 		}
 	
-		#page-wrapper #banner {
-		  background-size: 150%;
-		}
 	  
 	
 	  @media screen and (max-width: 580px) {
@@ -172,8 +182,13 @@
 		}
 
 	strong, b {
-		color: #646464;
+		/* color: #646464; */
+		color: #e89980;
 		font-weight: 400;
+	}
+
+	#connectFlex > div:nth-child(1) > div > ul > div > ul > li:nth-child(1) > a:hover, #connectFlex > div:nth-child(1) > div > ul > div > ul > li:nth-child(2) > a:hover {
+		color: #e89980;
 	}
 
 	em, i {
@@ -3315,6 +3330,22 @@
 
 /* Banner */
 
+	a:hover, #header nav > ul > li a:hover, #header h1 a:hover, #cta > h2:hover {
+		/* color: #E83E24; */
+		color: #ff4712;
+	}
+
+	.button.alt:hover {
+		background-color: #666;
+		color: #ffffff;
+	}
+
+	.funFont {
+		/* color: #E83E24; */
+		color: #ff4712;
+		font-size: larger;
+	}
+
 	#banner {
 		background-attachment: fixed;
 		background-color: #000000;
@@ -3334,6 +3365,14 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
+		}
+
+		#cta > h2 {
+			color: #fff !important;
+		}
+
+		body > a:hover {
+			color: #ff4712;
 		}
 
 		#banner h2 {
@@ -3626,6 +3665,10 @@
 		header.major {
 			display: block;
 		  }
+
+		#banner {
+			padding: 3em 0 18em 0;
+		}
 	 
 		  .image img {
 			height: 30vh;
@@ -4028,7 +4071,7 @@
 			}
 
 				#banner h2 {
-					font-size: 2.25em;
+					font-size: 3.5em;
 				}
 
 				#banner p {
@@ -4166,7 +4209,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 5em 3em 4em 3em;
+				padding: 4.70em 3em 4em 3em;
 			}
 
 		/* Main */

@@ -301,13 +301,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #34a58e;
+		/* color: #34a58e; */
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #34a58e !important;
+			/* color: #34a58e !important; */
 		}
 
 	strong, b {
@@ -1580,7 +1580,7 @@ input, select, textarea {
 		#header h1 {
 			color: #a0a0a1;
 			display: inline-block;
-			font-size: 1em;
+			font-size: 1.5em;
 			line-height: 1;
 			margin: 0;
 			vertical-align: middle;
@@ -1591,8 +1591,8 @@ input, select, textarea {
 				color: inherit;
 			}
 
-				#header h1 a:hover {
-					color: inherit !important;
+			#header > h1 > a:hover, #header > h1 > a > strong:hover, #header > nav > ul > li > a:hover {
+					color: #ff4712;
 				}
 
 		#header nav {
@@ -1610,6 +1610,7 @@ input, select, textarea {
 				#header nav > ul > li {
 					display: inline-block;
 					padding: 0;
+					font-size: 1.5em;
 				}
 
 					#header nav > ul > li a {
@@ -1632,7 +1633,7 @@ input, select, textarea {
 						}
 
 						#header nav > ul > li a:hover {
-							color: #ffffff !important;
+							color: #ff4712;
 						}
 
 						#header nav > ul > li a.active {
