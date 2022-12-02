@@ -181,6 +181,7 @@
 			border-bottom-color: transparent;
 		}
 
+
 	strong, b {
 		/* color: #646464; */
 		color: #e89980;
@@ -191,7 +192,7 @@
 		color: #e89980;
 	}
 
-	em, i {
+	em, i, .shows {
 		font-style: italic;
 	}
 
