@@ -225,7 +225,7 @@
 
 	h3 {
 		font-size: 1.75em;
-		line-height: 1.3em;
+		line-height: 1.2em;
 		letter-spacing: -0.025em;
 	}
 
@@ -2106,9 +2106,13 @@
 	}
 
   #about .textLeft {
-    font-size: 1.1em;
-		margin-top: -0.85em;
-		line-height: 1.5em;
+
+		/* margin-top: -0.85em; */
+		line-height: 1.55em;
+  }
+
+  .larger {
+	font-size: 1.1em;
   }
 
 	header h4 + p,
@@ -2120,9 +2124,10 @@
 	}
 
 	header.major {
-		padding: 4rem 0 1.6rem 0;
+		padding: 1rem 0 1.6rem 0;
 		text-align: center;
     display: flex;
+	font-size: 1.1em;
 	}
 
 		header.major h2 {
@@ -2590,9 +2595,14 @@
       height: 80vh;
 		}
 
+		#about > header:nth-child(4) > div.image.left > img {
+			height: 45vh;
+		}	
+
     #secondAboutImage {
       height: 45vh;
       margin-top: -0.85em;
+	  margin-right: 0;
     }
 
 		.image.left {
@@ -2604,10 +2614,11 @@
 #aboutImageRight {
   display: flex;
   flex-direction: row-reverse;
+  margin-top: 1.5em;
 }
 
 .image.right {
-  flex: 1;
+  flex: 2;
 }
 
 #about .image-right-text {
@@ -3428,7 +3439,7 @@
 
   .aboutHeader {
     font-size: 2rem;
-    margin: 0 0 1em 0;
+    margin: 0 2em 1em 2em;
   }
 
   #about {
