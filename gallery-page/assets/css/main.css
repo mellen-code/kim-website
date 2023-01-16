@@ -26,13 +26,18 @@
 }
 
 #main #image5Thumb {
+margin-top: -41.5vh;
+  height: 28vh;
+}
+
+#main #image20Thumb {
   margin-top: -41.5vh;
   height: 28vh;
 }
 
 #main #image7Thumb {
   height: 42vh;
-  margin-top: -4.5vh;
+  margin-top: -5vh;
 }
 
 #main #image2Thumb {
@@ -48,7 +53,7 @@
 
 #main #image10Thumb {
 	height: 50vh;
-  	margin-top: -4.5vh;
+  	margin-top: -5vh;
 }
 
 #main #image11Thumb {
@@ -58,13 +63,13 @@
 
 #main #image12Thumb {
 	margin-left: 2vw;
-  margin-top: -2.5vh;
+  margin-top: -2vh;
   height: 70vh;
 }
 
 #main #image13Thumb {
 	height: 62vh;
-  	margin-top: -18.5vh;
+  	margin-top: -19.5vh;
 }
 
 #main #image14Thumb {
@@ -73,21 +78,37 @@
 	height: 50vh;
 }
 
-#main #image15Thumb {
+#main #image15Thumb, #main #image18Thumb {
 	margin-left: 2vw;
   margin-top: 3vh;
   height: 42vh;
 }
 
+#main #image21Thumb {
+	margin-left: 2vw;
+  margin-top: -5vh;
+  height: 50vh;
+}
+
 #main #image16Thumb {
 	height: 52vh;
-  	margin-top: 1.5vh;
+  	margin-top: 1vh;
+}
+
+#main #image19Thumb {
+	margin-top: 3.15vh;
 }
 
 #main #image17Thumb {
 	margin-left: 2vw;
   	margin-top: -17vh;
 	height: 38vh;
+}
+
+#main #image20Thumb {
+	margin-left: 2vw;
+  	margin-top: -28.5vh;
+	height: 70vh;
 }
 
 
@@ -1974,7 +1995,7 @@ input, select, textarea {
 				grid-auto-rows: 1fr;
 			}
 
-			#main #image1Thumb, #main #image2Thumb, #main #image3Thumb, #main #image4Thumb, #main #image5Thumb, #main #image6Thumb, #main #image7Thumb, #main #image8Thumb, #main #image9Thumb, #main #image10Thumb, #main #image11Thumb, #main #image12Thumb, #main #image13Thumb, #main #image14Thumb, #main #image15Thumb, #main #image16Thumb, #main #image17Thumb {
+			#main #image1Thumb, #main #image2Thumb, #main #image3Thumb, #main #image4Thumb, #main #image5Thumb, #main #image6Thumb, #main #image7Thumb, #main #image8Thumb, #main #image9Thumb, #main #image10Thumb, #main #image11Thumb, #main #image12Thumb, #main #image13Thumb, #main #image14Thumb, #main #image15Thumb, #main #image16Thumb, #main #image17Thumb, #main #image18Thumb, #main #image19Thumb, #main #image20Thumb, #main #image21Thumb {
 				margin: 0;
 				height: 30vh;
 				width: 100%;
